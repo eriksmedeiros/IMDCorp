@@ -1,8 +1,11 @@
 package src.com.imdcorp.app;
 
-public class Main {
+import src.com.imdcorp.app.dao.BancoDAO;
+import src.com.imdcorp.app.view.Menu;
 
-        public static void main(String[] args) {
-            System.out.println("Hello World");
-        }
+public class Main {
+    public static void main(String[] args) {
+        BancoDAO banco = BancoDAO.getInstance();
+        Menu.menu(banco);
+    }
 }
