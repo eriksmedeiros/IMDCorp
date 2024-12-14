@@ -63,6 +63,8 @@ public class Professor extends Pessoa implements Funcionario, Serializable {
     @Override
     public String toString() {
         return "Nome: " + getNome() + "\n" +
+                "Matrícula: " + getMatricula() + "\n" +
+                "Formação: " + getFormacaoProfessor() + "\n" +
                 "Disciplinas: " + getDisciplinas() + "\n";
     }
 }

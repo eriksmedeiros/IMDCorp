@@ -32,7 +32,8 @@ public class BancoDAO {
         } catch (FileNotFoundException e) {
             System.out.println("Arquivo não encontrado.");
         } catch (IOException | ClassNotFoundException e) {
-            System.out.println("Classe não encontrada.");
+            System.out.println("Classe não encontrada." + e.getMessage());
+            e.printStackTrace();
         }
     }
 

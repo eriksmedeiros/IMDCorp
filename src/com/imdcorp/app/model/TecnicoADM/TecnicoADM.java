@@ -59,8 +59,10 @@ public class TecnicoADM extends Pessoa implements Funcionario, Serializable {
 
     @Override
     public String toString() {
-        return "Nome: " + "\n" +
-                "Função: " + "\n";
+        return "Nome: " + getNome() + "\n" +
+                "Matrícula: " + getMatricula() + "\n" +
+                "Formação: " + getFormacaoTecnico() + "\n" +
+                "Departamento: " + getDepartamento() + "\n";
     }
 
     @Override

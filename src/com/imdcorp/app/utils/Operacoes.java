@@ -372,6 +372,6 @@ public class Operacoes {
         else if (opcao == 0) { System.out.println("Encerrando o programa. Até mais!"); System.exit(0); }
         else { throw new IllegalArgumentException("Opção inválida: " + opcao); }
 
-        System.out.println("Salário: " + salario);
+        System.out.println("Salário: R$ " + String.format("%.2f", salario));
     }
 }
