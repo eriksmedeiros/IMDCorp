@@ -1,0 +1,15 @@
+out/
+.vscode/
+.git/
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Logs
+*.log
+/logs/
+
+# Build e diretórios do IDE
+/build/
+/target/
